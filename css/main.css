@@ -1,0 +1,591 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+    background: #F0F4FB;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto; 
+}
+
+.nav {
+    display: flex;
+    padding-top: 30px;
+}
+
+.lang {
+    padding-top: 5px;
+    padding-left: 40px;
+    color: #8991AE;
+    font-family: 'SF UI Display Light';
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.lang-menu {
+    padding-bottom: 3px;
+    padding-left: 10px    
+}
+
+.colorizer {
+    background: linear-gradient(180deg, #F34E4E 0%, #F4955F 51.56%, #F8C476 100%);
+    opacity: 0.8;
+    height: 453px;
+    margin-top: 69px;
+}
+
+.image5 {
+    position: absolute;
+    opacity: 0.4;
+    right: 0;
+}
+
+.accept {
+    position: relative;
+    top: 44px;
+    margin: 0;
+    width: 309px;
+    height: 50px;
+    background: rgba(37, 171, 99, 0.3);
+    border: 1px solid #579564;
+    border-radius: 6px;
+}
+
+.vector {
+    display: flex;
+    padding: 16px 15px;
+}
+
+.vector-shadows {
+    width: 15px;
+    height: 15px;
+    padding-top: 3px;
+
+    box-shadow: 0px 15px 15px rgba(45, 60, 88, 0.15);
+}
+
+.accept-text {
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 10px;
+
+}
+
+.welcome {
+    padding-top: 99px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 36px;
+    color: #FFFFFF
+}
+
+.vean {
+    font-family: 'SF UI Display Semibold';
+}
+
+.rectangle {
+    position: relative;
+    width: 1020px;
+    margin-top: 30px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 30px 20px rgba(45, 60, 88, 0.15);
+    border-radius: 6px;
+    display: flex;
+}
+
+.vl {
+    padding-left: 41px;
+    padding-top: 39px;
+    padding-bottom: 38px;
+
+    width: 70px;
+    height: 70px;
+}
+
+.text-hero {
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.hero1 {
+    font-family: 'SF UI Display Semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.hero2 {
+    width: 645px;
+    padding-top: 4px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.hero2_lh {
+    line-height: 22px;
+}
+
+.hand {
+    position: relative;
+    z-index: 1;
+    padding-top: 25px;
+    float: right;
+}
+
+.text-ready {
+    padding-top: 26px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.text-for {
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.list {
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+.margin-list {
+    padding-left: 110px;
+}
+
+.text-list {
+    padding-left: 10px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.vector_orange {
+    padding-top: 9px;
+
+    width: 15px;
+    height: 15px;
+}
+
+.text_install {
+    padding-top: 50px;
+
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #8991AE;
+}
+
+.three_steps_text {
+    font-family: 'SF UI Display Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.steps-rectangle {
+    padding-top: 30px;
+    padding-left: 30px;
+
+    width: 468px;
+    height: 375px;
+}
+
+.steps_line {
+    position: relative;
+    top: 180px;
+    right: 149px;
+    z-index: 1;
+
+    width: 321px;
+    height: 6px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    transform: rotate(90deg);
+}
+
+.z_index {
+    position: relative;
+    z-index: 2;
+}
+
+.circle_size1 {
+    padding-top: 8px;
+    padding-left: 3px;
+
+    width: 16px;
+    height: 16px;
+}
+
+.step1 {
+    padding-left: 16px;
+
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.step1_text {
+    padding-left: 35px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.vl_mini_size {
+    padding-left: 35px;
+    padding-top: 19px;
+
+    width: 48px;
+    height: 48px;
+}
+
+.vl_mini_text1 {
+    padding-left: 12px;
+    padding-top: 19px;
+
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #32384D;
+}
+
+.vl_mini_text2 {
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #8991AE;
+}
+
+.app_store {
+    margin-top: 26px;
+    margin-left: 35px;
+    width: 140px;
+    height: 40px;
+
+    background: #32384D;
+    border-radius: 6px;
+    box-shadow: 0px 30px 20px rgba(45, 60, 88, 0.15);
+}
+
+.vector_app {
+    padding-top: 9px;
+    padding-left: 12px;
+
+    width: 16px;
+    height: 21px;
+}
+
+.app_text1 {
+    padding-top: 6px;
+    padding-left: 11px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.app_text2 {
+    font-family: 'SF UI Display Medium';
+    font-weight: 400;
+}
+
+.google_play {
+    margin-top: 26px;
+    margin-left: 27px;
+    width: 140px;
+    height: 40px;
+
+    background: #32384D;
+    border-radius: 6px;
+    box-shadow: 0px 30px 20px rgba(45, 60, 88, 0.15);
+}
+
+.vector_google {
+    padding-top: 9px;
+    padding-left: 12px;
+
+    width: 16px;
+    height: 21px;
+}
+
+.google_text1 {
+    padding-top: 6px;
+    padding-left: 11px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.google_text2 {
+    font-family: 'SF UI Display Medium';
+    font-weight: 400;
+}
+
+.circle_size2 {
+    padding-top: 40px;
+    padding-left: 3px;
+
+    width: 16px;
+    height: 16px;
+}
+
+.step2 {
+    padding-top: 32px;
+    padding-left: 16px;
+
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.step2_text {
+    padding-left: 35px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.step2_mail {
+    font-family: 'SF UI Display Medium';
+}
+
+.circle_size3 {
+    padding-top: 40px;
+    padding-left: 3px;
+
+    width: 16px;
+    height: 16px;
+}
+
+.step3 {
+    padding-top: 32px;
+    padding-left: 16px;
+
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.step3_text {
+    padding-left: 35px;
+
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #32384D;
+}
+
+.question-circle {
+    padding-left: 3px;
+    padding-top: 37px;
+
+    width: 16px;
+    height: 16px;
+}
+
+.questions_text {
+    padding-top: 30px;
+    padding-left: 16px;
+
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #8991AE;
+}
+
+.support_text {
+    color: #32384D;
+}
+
+.footer_rectangle {
+    position: relative;
+    margin-top: 165px;
+    height: 100px;
+    z-index: 2;
+    background: #FFFFFF;
+
+    box-shadow: 0px 2px 5px rgba(45, 60, 88, 0.1);
+}
+
+.footer {
+    padding-top: 30px;
+
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+
+    background: #8991AE;
+    border-radius: 6px;
+}
+
+.facebook_img {
+    width: 10px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.youtube {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+
+    background: #8991AE;
+    border-radius: 6px;
+}
+
+.youtube_img {
+    width: 20px;
+    height: 16px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.twitter {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+
+    background: #8991AE;
+    border-radius: 6px;
+}
+
+.twitter_img {
+    width: 20px;
+    height: 16px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.links {
+    padding-top: 10px;
+}
+
+.link_vean {
+    color: #8991AE;
+}
+
+.links_padding {
+    padding-left: 30px;
+}
+
+.links_style {
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: 'SF UI Display Medium';
+    font-size: 14px;
+    line-height: 20px;
+    color: #32384D;
+}
+
+.vean_mobile_app {
+    padding-left: 161px;
+    padding-top: 10px;
+    white-space: nowrap;
+
+    font-family: 'SF UI Display Medium';
+    font-size: 14px;
+    line-height: 20px;
+    color: #8991AE;
+}
+
+.apple {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+
+    background: #8991AE;
+    border-radius: 6px;
+}
+
+.apple_img {
+    width: 16px;
+    height: 21px;
+    padding-top: 9px;
+    padding-left: 12px;
+}
+
+.android {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+
+    background: #8991AE;
+    border-radius: 6px;
+}
+
+.android_img {
+    width: 16px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 12px;
+}
