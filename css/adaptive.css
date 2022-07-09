@@ -1,0 +1,237 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .colorizer {
+    margin-top: 30px;
+  }
+
+  .rectangle {
+    width: 760px;
+  }
+
+  .hero1 {
+    width: 552px;
+  }
+
+  .hero2 {
+    width: 586px;
+  }
+
+  .hand {
+    display: none;
+  }
+
+  .hand_adaptive {
+    display: block;
+    width: 391px;
+    height: 801px;
+
+    position: absolute;
+    padding-top: 60px;
+    right: 0;
+  }
+
+  .text-ready {
+    font-size: 22px;
+  }
+
+  .list {
+    padding-left: 5px;
+  }
+
+  .margin-list {
+    padding-left: 50px;
+  }
+
+  .text_install {
+    width: 430px;
+    font-size: 13px;
+  }
+
+  .three_steps_text {
+    font-size: 20px;
+  }
+
+  .footer_rectangle {
+    margin-top: 140px;
+  }
+
+  .links_padding {
+    padding-left: 20px;
+  } 
+
+  .vean_mobile_app {
+    display: none;
+  }
+
+  .apple {
+    display: none;
+  }
+
+  .android {
+    display: none;
+  }
+}
+ 
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .colorizer {
+    height: 500px;
+    margin-top: 25px;
+  }
+
+  .image5 {
+    height: 500px;
+  }
+
+  .accept {
+    top: 40px;
+    width: 299px;
+    height: 50px;
+}
+
+  .welcome {
+    position: relative;
+    padding-top: 70px;
+
+    font-size: 30px;
+  }
+
+  .rectangle {
+    width: 300px;
+  }
+
+  .text-hero {
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .vl {
+    width: 46px;
+    height: 46px;
+
+    padding-left: 20px;
+    padding-top: 20px;
+
+  }
+
+  .hero1 {
+    width: 203px;
+
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .hero2 {
+    width: 200px;
+
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .hand {
+    display: none;
+  }
+
+  .hand_adaptive {
+    display: block;
+    width: 295px;
+    height: 600px;
+    position: absolute;
+    padding-top: 1000px;
+    right: auto;
+  }
+
+  .text-ready {
+    width: 250px;
+  }
+
+  .list_flex {
+    padding-top: 20px;
+    display: block;
+  }
+
+  .list {
+    padding-top: 0px;
+    padding-left: 25px;
+  }
+
+  .margin-list {
+    padding-left: 25px;
+  }
+
+  .text_install {
+    padding-top: 40px;
+    width: 295px;
+  }
+
+  .three_steps_text {
+    width: 265px;
+  }
+
+  .steps-rectangle {
+    padding-left: 0px;
+    width: 295px;
+  }
+
+  .footer_rectangle {
+    height: 252px;
+    margin-top: 615px;
+  }
+
+  .footer_flex2 {
+    display: block;
+  }
+
+  .footer_flex3 {
+    display: block;
+  }
+
+  .links {
+    padding-top: 0px;
+  }
+
+  .links_padding {
+    padding-bottom: 5px;
+  } 
+
+  .facebook {
+    margin-left: 45px;
+    margin-bottom: 25px;
+  }
+
+  .youtube {
+    margin-left: 45px;
+    margin-bottom: 25px;
+  }
+
+  .twitter {
+    margin-left: 45px;
+  }
+
+  .conteiner_links {
+    width: 150px;
+  }
+
+  .vean_mobile_app {
+    display: none;
+  }
+
+  .apple {
+    display: none;
+  }
+
+  .android {
+    display: none;
+  }
+}
