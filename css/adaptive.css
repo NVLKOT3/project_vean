@@ -183,6 +183,14 @@
     padding-left: 0px;
     width: 295px;
   }
+  
+  .circle_size3 {
+    padding-top: 10px;
+  }
+
+  .step3 {
+    padding-top: 3px;
+  }
 
   .footer_rectangle {
     height: 252px;
